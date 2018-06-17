@@ -35,9 +35,9 @@
 
 	atjs.start = function (params) {
 		atjs.parentStart(params);   // Let awesometable load up as normal
-    generate = function() {
+    // generate = function() {
 			window.alert("test");
-		}
+		// }
 		// Set up things as you need them to be set up, using the params object
 		// You can edit the <script> content to pass information to that params object
 	};
